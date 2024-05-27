@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE users [
+<!ELEMENT users (user)+>
+<!ELEMENT user (name)>
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST user username CDATA #REQUIRED>
+<!ATTLIST user password CDATA #REQUIRED>
+]>
+<users>
+  <user username="remark" password="MTIzNDU=">
+    <name>remark</name>
+  </user>
+</users>
